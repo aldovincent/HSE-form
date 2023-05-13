@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    background: cyan;
+    box-shadow: 5px 10px #888888;
+
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    color: brown;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.title{
+    transition: transform .2s;
+}
+.title:hover{
+     transform: scale(1.3);
+}
